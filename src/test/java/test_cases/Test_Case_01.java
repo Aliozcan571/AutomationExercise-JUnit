@@ -112,6 +112,8 @@ public class Test_Case_01 extends TestBase {
         Thread.sleep(1500);
         driver.findElement(By.xpath("//a[@data-qa=\"continue-button\"]")).click();              //1.yol
         driver.navigate().refresh();
+
+
         driver.findElement(By.linkText("Continue")).click(); //reklamdan dolayı ikinci kez tıklanması gerek  //2.yol
 
 
